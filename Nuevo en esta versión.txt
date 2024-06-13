@@ -3,3 +3,20 @@ Actualización del manual, se incluyen pasos completos para la conexión a la re
 
 21/5/2024
 Se agrega la función de carga de firmware por serial, a través del programa flash_download_tool_3.9.6, junto con los archivos correspondientes, incluyendo el propio programa, el firmware, bootloader y partitions, y las carpetas de configuración.
+
+24/5/2024
+Se mueve la caja de texto a una pestaña en especifico, la de configuración, y se aumenta su tamaño para mayor información
+
+29/5/2024
+Se agrega la capacidad para leer la información de los sensores de temperature, estado y analogos
+	-Para Firmware SS.15.01.2024.HW2.7.SW2.0.1.Lx, muestra las MAC de los sensores de temperatura que esten conectados.
+	-Para Firmware SS.19.04.2024.HW2.7.SW2.0.2.Lx, muestra las MAC de los sensores de temperatura conectados, la temperatura, estado de 		los sensores de estado, y corriente de los sensores analogos.
+	-Para Firmware SS.28.05.2024.HW2.9.0SW2.1.0.Lx, muestra las MAC de los sensores de temperatura conectados, la temperatura, estado de 		los sensores de estado, y corriente de los sensores analogos.
+
+2/6/2024
+Se modifica la función de cargar firmere por serial o por API de un selector a dos botones.
+
+5/6/2024
+Se agrega una barra de desplazamiento vertical para la pestaña de Configuración para monitores con menor cantidad de pixeles.
+Mas información se puede obtener de "api/index"
+Cambios esteticos.
